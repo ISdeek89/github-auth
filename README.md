@@ -18,14 +18,9 @@ After saving your credentials, choose the **Clone repo** option. Enter the repos
 ### 3. Exit
 Select the **Exit** option to quit the script.
 
-## Requirements
-- `bash`
-- `git`
-- `base64`
-
 ## Security
 - The credentials are stored in a file (`~/.github_credentials`) with restricted read/write permissions.
 - The credentials are base64 encoded, but this is not encryption. Use at your own risk.
 
 ## License
-This script is released under the MIT License.
+This script is released under the Apache License 2.0.
